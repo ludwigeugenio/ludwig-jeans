@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#logo {
+	height: 50px;
+	width: 50px;
+}
+
+#cartLogo {
+	font-size: 1.5em;
+	color: black;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#cartLogo:hover {
+	color: rgba(0,0,0,.75);
+}
+
+
+#cartLogo>i {
+	margin-right: 10px;
+}
+
+#cartLogo>span	 {
+	font-size: .5em;
+}
+
+
+#ftItems {
+	padding: 0;
+	margin-left: 15px;
+
+}
+
+.cat {
+	color: black;
+}
+
+.cat:hover {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+}
+
+
+.btn {
+	color: black;
+}
+
+.card {
+	margin-bottom: 10px;
+
+}
+
+#sale>.card>.card-header>.mb-0>.btn {
+	color: red;
+}
+
+
+
+.page-item {
+	text-align: right;
+}
+
+
+footer {
+	background-color: #1a1a1a;
+	color: white;
+}
+
+footer>div>ul>li {
+	font-size: .75em;
+	list-style: none;
+}
+
+.categoryft {
+	font-size: 1em;
+}
+
+.newsdiv {
+	padding-right: 200px;
+}
+
+#newsletter {
+	background-color: transparent;
+	border:none;
+
+}
+
+.footercat {
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+	#ftItems {
+		border:none;
+		margin-top: 0;
+		
+	}
+
+	#sale, #tops, #bottom, #accessories {
+		width: 92.5vw;
+
+	}
+
+	.card {
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	#searchbar {
+		width: 70vw;
+		margin-right: 10px;
+	}
+
+	.pageholder {
+		margin-left: 68px;
+		margin-top: 20px;
+}
+
+	.newsdiv {
+		padding-right: 50px;
+	}
+
+	#logo {
+		position: relative;
+
+		left: 20px;
+	}
+}

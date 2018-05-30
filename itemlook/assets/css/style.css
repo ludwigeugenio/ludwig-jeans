@@ -1,0 +1,232 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#logo {
+	height: 50px;
+	width: 50px;
+}
+
+#cartLogo {
+	font-size: 1.5em;
+	color: black;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#cartLogo:hover {
+	color: rgba(0,0,0,.75);
+}
+
+
+#cartLogo>i {
+	margin-right: 10px;
+}
+
+#cartLogo>span	 {
+	font-size: .5em;
+}
+
+
+#ftItems {
+	padding: 0;
+	margin-left: 15px;
+
+}
+
+.cat {
+	color: black;
+}
+
+.cat:hover {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+}
+
+
+.btn {
+	color: black;
+}
+
+/*end of nav*/
+
+
+#imgholder {
+	height: 60vh;
+	margin-left: 10px;
+}
+
+#mainimg {
+	height: 450px;
+	width: 450px;
+	margin: 0 auto;
+
+}
+
+.sideimg {
+	height: 110px;
+	width: 110px;
+	margin-left: 40px;
+}
+
+.smimgholder {
+	margin-bottom: 30px;
+	border: 1px solid rgba(0,0,0,0.25);
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 50px;
+	height: 120px;
+	padding-right: 15px;
+}
+
+
+#rightside {
+	margin-left: 30px;
+}
+
+.page-item {
+	margin-right: 10px;
+}
+
+#addtobag {
+	width: 200px;
+	margin-top: 40px;
+	color: white;
+}
+
+#freedelivery {
+	display: block;
+	margin-top: 10px;
+}
+
+/*footer */
+
+footer {
+	background-color: #1a1a1a;
+	color: white;
+}
+
+footer>div>ul>li {
+	font-size: .75em;
+	list-style: none;
+}
+
+.categoryft {
+	font-size: 1em;
+}
+
+.newsdiv {
+	padding-right: 200px;
+}
+
+#newsletter {
+	background-color: transparent;
+	border:none;
+
+}
+
+.footercat {
+	padding-top: 25px;
+}
+
+.footercat>.ul>li>a {
+	color: white;
+
+}
+
+.col-lg-3 {
+	padding-left: 0px;
+}
+
+
+
+/*mobile*/
+
+@media only screen and (max-width: 450px) {
+
+#imgholder {
+	height: 50vh;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+#mainimg {
+	height: 300px; 
+	width: 300px;
+}
+
+
+.smimgholder {
+	margin: 0;
+	padding: 0;
+	width: 30vw;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+.sideimg {
+	margin: 0;
+	padding: 0;
+}
+
+.newsdiv {
+	padding-right: 0;
+
+}
+
+#lastimg {
+	margin-left: 133px;
+	margin-bottom: 70px;
+}
+
+}
+
+
+
+/*tablet*/
+
+
+@media (min-width: 451px) and (max-width: 768px) {
+
+#imgholder {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.smimgholder {
+	margin: 0;
+	padding: 0;
+	width: 30vw;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+#imgstarter {
+	margin-left: 25px;
+}
+
+
+.sideimg {
+	margin-left: 65px;
+}
+
+#lastimg {
+	margin-left: 265px;
+	margin-bottom: 30px;
+}
+
+.newsdiv {
+	margin-left: 230px;
+}
+
+
+#addtobag {
+	width: 300px;
+}
+
+}

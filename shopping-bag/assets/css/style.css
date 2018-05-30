@@ -1,0 +1,254 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#logo {
+	height: 50px;
+	width: 50px;
+}
+
+#cartLogo {
+	font-size: 1.5em;
+	color: black;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#cartLogo:hover {
+	color: rgba(0,0,0,.75);
+}
+
+
+#cartLogo>i {
+	margin-right: 10px;
+}
+
+#cartLogo>span	 {
+	font-size: .5em;
+}
+
+
+.cat {
+	color: black;
+}
+
+.cat:hover {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+}
+
+
+.btn {
+	color: black;
+}
+
+
+/*end of nav*/
+
+
+
+/*main*/
+
+#shopheader {
+	font-family: 'Song Myung', serif;
+
+}
+
+
+
+
+	/*rightside*/
+
+	#promocode {
+		width: 180px;
+	}
+
+	.orderval {
+		margin: 0;
+	}
+
+	.final {
+		margin-top: 10px;
+		border-top: none;
+	}
+
+	#checkout {
+		width: 180px;
+		margin-left: 35px;
+	}
+
+	#policy {
+		margin-top: 30px;
+		display: block;
+	}
+
+	#returnpolicy {
+		display: block;
+		margin-top: 20px;
+	}
+
+	#rightside {
+		width: 18rem;
+	}
+
+	#promobar {
+		margin-left: 0;
+	}
+/*end of main*/
+
+
+
+/*footer*/
+
+footer {
+	background-color: #1a1a1a;
+	color: white;
+	margin-top: 50px;
+}
+
+footer>div>ul>li {
+	font-size: .75em;
+	list-style: none;
+}
+
+.categoryft {
+	font-size: 1em;
+}
+
+.newsdiv {
+	padding-right: 200px;
+}
+
+#newsletter {
+	background-color: transparent;
+	border:none;
+
+}
+
+.footercat {
+	padding-top: 25px;
+}
+
+.footercat>.ul>li>a {
+	color: white;
+
+}
+
+.col-lg-3 {
+	padding-left: 0px;
+}
+
+
+
+
+
+
+/*mobile*/
+
+@media only screen and (max-width:450px) {
+
+.newsdiv {
+	padding-right: 0px;
+	margin-left: 40px;
+}
+
+.card {
+	margin-bottom: 10px;
+}
+
+.img-fluid {
+	padding-top: 50px;
+}
+
+
+#rightside {
+	margin-left: 50px;
+}
+
+
+#promocode {
+	width: 245px;
+}
+
+#addpromo {
+	margin-left: 100px;
+	width: 80px;
+
+}
+
+#leftside {
+	margin-right: 10px;
+	margin-left: 10px;
+	border: none;
+}
+
+#logo {
+	position: relative;
+	left: 20px;
+}
+
+}
+
+
+
+
+/*tablet*/
+
+@media (min-width: 451px) and (max-width: 768px) {
+
+
+.card {
+	margin-bottom: 20px;
+}
+
+#leftside {
+	height: 60vh;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: none
+}
+
+
+.img-fluid {
+	height: 19.5vh; 
+	width:19.5vw;
+	margin-left: 110px;
+	padding-bottom: 10px;
+}
+
+
+.dcrpt {
+	height: 19.5vh;
+}
+
+
+#rightside {
+	width: 700px;
+	margin-left: 30px;
+
+}
+
+
+#promocode {
+	width: 245px;
+}
+
+#addpromo {
+	width: 150px;
+
+}
+
+
+#promobar {
+	margin-left: 30px;
+}
+
+
+.newsdiv {
+	margin-left: 220px;
+}
+
+}

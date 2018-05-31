@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	
+	<title>Shopping Bag | Ludwig Jeans </title>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/ludwig.PNG">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<!-- font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navitems" aria-controls="navitems" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<a class="navbar-brand" href="#"><img id="logo" class="img-fluid" src="assets/images/ludwig.PNG"></a>
+
+			<div class="collapse navbar-collapse" id="navitems">
+    			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      				<li class="nav-item active">
+        				<a class="nav-link" href="#">Men <span class="sr-only">(current)</span></a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="#">Women</a>
+     				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="#">Kids</a>
+      				</li>
+    			</ul>
+    			<a href="#" id="cartLogo"><i class="fas fa-shopping-bag"></i><span>Shopping bag <strong>(3)</strong></span></a>
+    			<form class="form-inline my-2 my-lg-0">
+      				<input id="searchbar" class="form-control mr-sm-2" type="search" placeholder="Search products" aria-label="Search">
+      				<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+    			</form>
+  		   	</div>			
+		</nav> <!-- end of nav -->
+
+
+		<main class="row">
+
+			<h2 class="display-4 col-lg-12" id="shopheader">SHOPPING BAG</h2>
+
+			<!-- leftside -->
+			<div class="col-lg-7 offset-lg-1 card" id="leftside">
+				<div class="row">
+					<!-- image -->
+					<div class="col-lg-4 col-6 dcrpt card">
+						<img class="img-fluid" src="assets/images/menpants.png">
+					</div>
+					<!-- description -->
+					<div class="col-lg-8 col-6 card dcrpt">
+						<ul class="list-group list-group-flush ">
+							<li class="list-group-item">Alexander Jeans</li>
+    						<li class="list-group-item">Size-28</li>
+    						<li class="list-group-item">Slim-fit</li>
+    						<li class="list-group-item"><s>$200.00</s>> $125.00</li>	
+						</ul>			
+					</div>
+				</div>
+				<div class="row">
+					<!-- image -->
+					<div class="col-lg-4 col-6 dcrpt card">
+						<img class="img-fluid" src="assets/images/menpants.png">
+					</div>
+					<!-- description -->
+					<div class="col-lg-8 col-6 card dcrpt">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Alexander Jeans</li>
+    						<li class="list-group-item">Size-28n</li>
+    						<li class="list-group-item">Slim-fit</li>
+    						<li class="list-group-item"><s>$200.00</s>> $125.00</li>	
+						</ul>			
+					</div>
+				</div>				
+				<div class="row">
+					<!-- image -->
+					<div class="col-lg-4 col-6 dcrpt card">
+						<img class="img-fluid" src="assets/images/menpants.png">
+					</div>
+					<!-- description -->
+					<div class="col-lg-8 col-6 card dcrpt">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Alexander Jeans</li>
+    						<li class="list-group-item">Size-28</li>
+    						<li class="list-group-item">Slim-fit</li>
+    						<li class="list-group-item"><s>$200.00</s>> $125.00</li>	
+						</ul>			
+					</div>
+				</div>
+
+			</div>
+
+
+			<!-- rightside -->
+			<div class="col-lg-3 offset-lg-1 col-sm-12" >
+				<div class="card" id="rightside">
+					<div class="card-header">
+				    	<strong>SHOPPING BAG TOTAL:</strong>
+				  	</div>
+			  		<ul class="list-group list-group-flush">
+			    		<li class="list-group-item">
+			    			<div class="row">
+			    				<div class="col-lg-9 col-sm-6 offset-sm-1" id="promobar">
+					    			<input id="promocode" class="form-control mr-sm-2" type="text" placeholder="Enter promo code" aria-label="text">
+				    			</div>
+				    			<div class="col-lg-3 col-sm-2 ">
+				      				<button id="addpromo" class="btn btn-outline-dark my-2 my-sm-0" type="submit">Add</button>
+			      				</div>
+		      				</div>
+			    		</li>
+			    		<li class="list-group-item">
+			    			<div class="row">
+				    			<div class="col-lg-6 col-6 col-sm-6">
+				    				<div class="row">
+						    			<label class="col-lg-12">Order Value:</label>
+						    			<label class="col-lg-12">Order Total:</label>
+					    			</div>
+					    		</div>
+					    		<div class="col-lg-6 col-6 col-sm-6">
+					    			<div class="row">
+						    			<label class="col-lg-12">USD 375.00</label>
+						    			<label class="col-lg-12">USD 375.00*</label>
+					    			</div>
+				    			</div>
+				    		</div>
+			    		</li>
+			    		<li class="list-group-item final">
+			    			<button id="checkout" class="btn btn-outline-dark my-2 my-sm-0" type="submit">Checkout</button>
+			    			<br>
+			    			<small id="policy">*Please note that the price does not include any fees that might be applied by your bank for cross border transactions, nor fees that might be applied by your Customs Office for import taxes/custom duties. If you pass the toll free limit in your market extra fees will be applied upon delivery. H&M is not responsible for these charges and does not compensate them. Please check with your bank or the local Customs Office of your country for more information. Read more <a href="#">here</a>.</small>
+			    			
+							<small id="returnpolicy">30 days to return. Read more about return and refund policy.</small>
+			    		</li>
+			  		</ul>
+					</div>
+			</div>
+			
+
+
+
+		</main>
+
+
+		<footer class="row">
+			<div class="col-lg-2 col-3 offset-1 offset-lg-1 footercat">
+				<ul class="ul">
+					<li class="categoryft">SHOP</li>
+					<li><a href="">MEN</a></li>
+					<li><a href="">WOMEN</a></li>
+					<li><a href="">KIDS</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-3 footercat">
+				<ul class="ul">
+					<li class="categoryft">CORPORATE INFO</li>
+					<li><a href="">About Ludwig Jeans group</a></li>
+					<li><a href="">Sustainability</a></li>
+					<li><a href="">Press</a></li>
+					<li><a href="">Investor Relations</a></li>
+					<li><a href="">Corporate governance</a></li>
+				</ul>
+				
+			</div>
+			<div class="col-lg-2 col-3 offset-1 offset-lg-1 footercat">
+				<ul class="ul">
+					<li class="categoryft">HELP</li>
+					<li><a href="">Find a store</a></li>
+					<li><a href="">Legal and privacy</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Customer service</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 offset-1 offset-lg-1 newsdiv">
+				<div class="card text-center" id="newsletter" style="width: 18rem;">
+				  <div class="card-body">
+				    <h5 class="card-title">Sign-up for newsletter</h5>
+				    <p class="card-text">Sign-up now and get an exclusive discount!</p>
+				    <a href="#" class="btn btn-danger">Sign-up</a>
+				  </div>
+				</div>
+			</div>
+
+		</footer>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- external customer js -->
+
+
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+    <!-- external bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

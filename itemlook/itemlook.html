@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	
+	<title>Alexander Jeans | Ludwig Jeans</title>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/ludwig.PNG">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navitems" aria-controls="navitems" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<a class="navbar-brand" href="#"><img id="logo" class="img-fluid" src="assets/images/ludwig.PNG"></a>
+
+			<div class="collapse navbar-collapse" id="navitems">
+    			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      				<li class="nav-item active">
+        				<a class="nav-link" href="#">Men <span class="sr-only">(current)</span></a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="#">Women</a>
+     				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="#">Kids</a>
+      				</li>
+    			</ul>
+    			<a href="../shopping-bag/shopping-bag.html" id="cartLogo"><i class="fas fa-shopping-bag"></i><span>Shopping bag (0)</span></a>
+    			<form class="form-inline my-2 my-lg-0">
+      				<input id="searchbar" class="form-control mr-sm-2" type="search" placeholder="Search products" aria-label="Search">
+      				<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+    			</form>
+  		   	</div>
+			
+		</nav> <!-- end of nav -->		
+
+		<main>
+			<h4 class="display-4">Alexander Jeans</h4>
+
+			<div class="row" id="images">
+				<div class="col-lg-6 card" id="imgholder">
+					<img id="mainimg" src="assets/images/menpants.png">
+
+				</div>
+
+				<div class="col-lg-2">
+					<div class="row">
+						<div class="col-lg-12 smimgholder" id="imgstarter">
+							<img class="sideimg" src="assets/images/menpants.png">
+						</div>
+						<div class="col-lg-12 smimgholder">
+							<img class="sideimg" src="assets/images/menpants.png">
+						</div>
+						<div class="col-lg-12 smimgholder">
+							<img class="sideimg" src="assets/images/menpants.png">
+						</div>
+						<div class="col-lg-12 smimgholder" id="lastimg">
+							<img class="sideimg" src="assets/images/menpants.png">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3" id="rightside">
+					<h3 class="display-5"><s>$200.00</s> > $120</h3>
+						<br>
+						<p>Sizes</p>
+						<ul class="pagination">
+							<li class="page-item"><input type="radio" name="size" value="28" checked>28</input></li>
+							<li class="page-item"><input type="radio" name="size" value="29">29</input></li>
+							<li class="page-item"><input type="radio" name="size" value="30">30</input></li>
+							<li class="page-item"><input type="radio" name="size" value="3130">31</input></li>
+							<li class="page-item"><input type="radio" name="size" value="323130">32</input></li>
+						</ul>
+						<button id="sizeguide" type="button" class="btn" data-toggle="modal" data-target="#sizemodal"><small>Size guide</small></button>
+
+						<div class="modal fade" id="sizemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Size guide</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <table class="table" id="table1">
+						        	<thead>
+							        	<tr>
+								        	<th scope="col"></th>
+								        	<th scope="col">XS</th>
+								        	<th scope="col">S</th>
+								        	<th scope="col">M</th>
+								        	<th scope="col">XL</th>
+								        	<th scope="col">XXL</th>
+							        	</tr>
+						        	</thead>
+						        	<tbody>
+							        	<tr>
+							        		<th scope="row">Sizes</th>
+							        		<td>26",27"</td>
+							        		<td>28",29",30"</td>
+							        		<td>31",32",33"</td>
+							        		<td>34",36"</td>
+							        		<td>38"</td>
+							        	</tr>
+						        	</tbody>
+						        </table>
+
+						        <table class="table table2">
+						        	<thead>
+							        	<tr>
+								        	<th scope="col"></th>
+								        	<th scope="col">XS</th>
+								        	<th scope="col">S</th>
+								        	<th scope="col">M</th>
+							        	</tr>
+						        	</thead>
+						        	<tbody>
+							        	<tr>
+							        		<th scope="row">Sizes</th>
+							        		<td>26",27"</td>
+							        		<td>28",29",30"</td>
+							        		<td>31",32",33"</td>
+							        	</tr>
+						        	</tbody>
+						        </table>
+
+						        <table class="table table2" >
+						        	<thead>
+							        	<tr>
+								        	<th scope="col"></th>
+								        	<th scope="col">XL</th>
+								        	<th scope="col" id="lastth">XXL</th>
+							        	</tr>
+						        	</thead>
+						        	<tbody>
+							        	<tr>
+							        		<th scope="row">Sizes</th>
+							        		<td>34",36"</td>
+							        		<td>38"</td>
+							        	</tr>
+						        	</tbody>
+						        </table>
+
+
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+						<br>
+						<button type="button" class="btn btn-dark" id="addtobag"><i class="fas fa-shopping-bag"></i> Add to bag</button>
+						<small id="freedelivery">FREE DELIVERY</small>
+
+						<hr>
+
+						<h5 class="display-5">Product description</h5>
+						<p>Ripped denim pants</p>
+						<h5 class="display-5">Details</h5>
+						<p>100% cotton. Machine wash warm. Imported Art.No. 12-3456 Product No. 1234567890</p>
+
+				</div>
+			</div>
+
+
+		</main>
+		<footer class="row">
+			<div class="col-lg-2 col-3 offset-1 offset-lg-1 footercat">
+				<ul class="ul">
+					<li class="categoryft">SHOP</li>
+					<li><a href="">MEN</a></li>
+					<li><a href="">WOMEN</a></li>
+					<li><a href="">KIDS</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-3 footercat">
+				<ul class="ul">
+					<li class="categoryft">CORPORATE INFO</li>
+					<li><a href="">About Ludwig Jeans group</a></li>
+					<li><a href="">Sustainability</a></li>
+					<li><a href="">Press</a></li>
+					<li><a href="">Investor Relations</a></li>
+					<li><a href="">Corporate governance</a></li>
+				</ul>
+				
+			</div>
+			<div class="col-lg-2 col-3 offset-1 offset-lg-1 footercat">
+				<ul class="ul">
+					<li class="categoryft">HELP</li>
+					<li><a href="">Find a store</a></li>
+					<li><a href="">Legal and privacy</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Customer service</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 offset-1 offset-lg-1 newsdiv">
+				<div class="card text-center" id="newsletter" style="width: 18rem;">
+				  <div class="card-body">
+				    <h5 class="card-title">Sign-up for newsletter</h5>
+				    <p class="card-text">Sign-up now and get an exclusive discount!</p>
+				    <a href="#" class="btn btn-danger">Sign-up</a>
+				  </div>
+				</div>
+			</div>
+
+		</footer>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- external customer js -->
+
+
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+    <!-- external bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+</html>

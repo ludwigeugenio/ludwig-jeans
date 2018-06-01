@@ -66,6 +66,7 @@
 
 }
 
+
 .sideimg {
 	height: 110px;
 	width: 110px;
@@ -101,6 +102,19 @@
 	display: block;
 	margin-top: 10px;
 }
+
+
+#table1>thead>tr>.borderrmv {
+	border-top: none;
+	border-bottom: none;
+	text-align: center;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+
 
 /*footer */
 
@@ -150,7 +164,7 @@ footer>div>ul>li {
 }
 
 
-.modal-body {
+.sizemodal {
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -159,9 +173,28 @@ footer>div>ul>li {
 	display: none;
 }
 
+
+.signupmodalcontent {
+	background-color: #1a1a1a;
+}
+#signUp {
+	color: white;
+
+}
+.close {
+	color: white;
+}
+
+
 /*mobile*/
 
 @media only screen and (max-width: 450px) {
+
+
+#searchbar {
+	width: 220px;
+	margin-right: 20px;
+}
 
 #imgholder {
 	height: 50vh;
@@ -208,6 +241,11 @@ footer>div>ul>li {
 	display:block;
 }
 
+.table2>thead>tr>.borderrmv {
+	border-top: none;
+	border-bottom: none;
+	text-align: center;
+}
 
 }
 

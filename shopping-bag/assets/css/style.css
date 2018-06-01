@@ -57,6 +57,13 @@
 
 }
 
+	/*leftside*/
+
+	.dcrpt {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
 
 
 
@@ -97,6 +104,20 @@
 	#promobar {
 		margin-left: 0;
 	}
+
+	.bagitem1 {
+		border: none;
+		padding-top: 20px;
+		padding-bottom: 0;
+		font-weight: bold;
+	}
+
+	.bagitem {
+		border: none;
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+
 /*end of main*/
 
 
@@ -125,6 +146,7 @@ footer>div>ul>li {
 #newsletter {
 	background-color: transparent;
 	border:none;
+	width: 18rem;
 
 }
 
@@ -149,6 +171,12 @@ footer>div>ul>li {
 /*mobile*/
 
 @media only screen and (max-width:450px) {
+
+
+#searchbar {
+	width: 220px;
+	margin-right: 20px;
+}
 
 .newsdiv {
 	padding-right: 0px;
@@ -206,8 +234,8 @@ footer>div>ul>li {
 
 #leftside {
 	height: 60vh;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
 	border: none
 }
 
@@ -224,6 +252,13 @@ footer>div>ul>li {
 	height: 19.5vh;
 }
 
+.bagitem1 {
+	padding-top: 10px;
+}
+
+.bagitem {
+	padding-top: 10px;
+}
 
 #rightside {
 	width: 700px;
@@ -248,7 +283,7 @@ footer>div>ul>li {
 
 
 .newsdiv {
-	margin-left: 220px;
+	margin-left: 240px;
 }
 
 }

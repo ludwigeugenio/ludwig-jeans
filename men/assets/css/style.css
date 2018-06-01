@@ -35,6 +35,7 @@
 #ftItems {
 	padding: 0;
 	margin-left: 15px;
+	border:none;
 
 }
 
@@ -48,12 +49,19 @@
 }
 
 
+#collapseThree {
+	border-bottom: 1px solid rgba(0,0,0,.125)
+}
+
+
 .btn {
 	color: black;
 }
 
 .card {
 	margin-bottom: 10px;
+	width: 18rem;
+
 
 }
 
@@ -120,6 +128,10 @@ footer>div>ul>li {
 
 @media only screen and (max-width: 450px) {
 
+	#searchbar {
+	width: 220px;
+	margin-right: 20px;
+	}	
 	.container-fluid {
 		padding-right: 15px;
 	}
@@ -138,6 +150,12 @@ footer>div>ul>li {
 	.card {
 		margin: auto;
 		margin-top: 10px;
+	
+	}
+
+	.rightside >.card {
+
+		margin-left: 44px;
 	}
 
 	#searchbar {
@@ -170,13 +188,16 @@ footer>div>ul>li {
 
 
 	.container-fluid {
-		padding-right: 0px;
+		padding-right: 15px;
 	}
 
 	.offset-sm-1 {
 		padding-left: 0;
 	}
 
+	.row>#ftItems>.accordion>.card {
+		width: 735px;
+	}
 
 	.row {
 		margin-right: 0;
@@ -188,6 +209,10 @@ footer>div>ul>li {
 
 	.newsdiv {
 		margin-left: 250px;
+	}
+
+	#footer {
+		width: 768px;
 	}
 
 }

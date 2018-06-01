@@ -163,6 +163,12 @@ footer>div>ul>li {
 
 @media only screen and (max-width: 450px) {
 
+
+#searchbar {
+	width: 220px;
+	margin-right: 20px;
+}
+
 #imgholder {
 	height: 50vh;
 	margin-bottom: 20px;
